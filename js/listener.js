@@ -24,6 +24,7 @@ export const addBtnListener = () => {
         if(pizzaCargada === false ){
             showError()
             pizzaCargada = false
+            btnStatus = false
          }
     })
 
